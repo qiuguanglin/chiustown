@@ -1,0 +1,79 @@
+body{
+    position:relative;
+    margin:0px;
+    padding:0px 0px 0px 0px;
+    background-image:url("bg_patterns/cloth.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    font-size:15px;
+}
+
+*{border:0px dotted red;}
+
+#head, #countries, #copyright{
+    width:1600px;
+}
+
+#head{
+    margin:0px;
+    background-repeat:x-repeat;
+    border-bottom:8px solid #ff9900;
+    height:720px;
+   background-image:url("imgs/header4.jpg");
+}
+
+#profile_img{
+    margin:0px;
+    float:left;
+    width:400px;
+    height:300px;
+    border-radius:0px 0px 30px 0px;
+    border-top-width:0px;
+
+}
+#profile_img img{
+    width:100%;
+    height:100%;
+    border-radius:0px 0px 30px 0px;
+}
+#profile_img h3{
+    position:absolute;
+}
+#self_intro{
+    margin-top:20px;
+    padding:8px 8px 8px 2px;
+    text-indent:30px;
+    font-size:0.5em;
+    border:2px dotted gray;
+    border-top:20px solid gray;
+    border-radius:0px 0px 30px 0px;
+}
+#pic_desc{
+    text-align:centre;
+    font-size:0.3em;
+}
+
+.content{
+    float:left;
+    margin:-8px 0px 0px 10px;
+    border:4px solid #ff9900;
+    border-right-width:0px;
+    width:220px;
+    padding:8px 0px 10px 0px;
+    box-shadow: 5px 8px 5px grey;
+    font-size:0.9em;
+    border-radius:0px 0px 30px 0px;
+}
+.first_word{
+    font-size:1.5em;
+}
+#first_content{
+    margin-left:0px;
+}
+.place_desc{
+    padding:8px;
+
+}
+.place img{
+    width:215px;
+}
